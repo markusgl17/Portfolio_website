@@ -1,0 +1,85 @@
+
+*{
+    background-color: #fff0e5;
+    font-family: "poppins";
+}
+
+body{
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+.box{    
+    border: 3px black solid;    
+    flex: 1;
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    
+      
+}
+
+#header-name{
+    align-items: center;    
+}
+
+#header-name h1 {
+    margin-right: 10px;
+}
+
+#nav {
+    justify-content: left;
+    border: 2px solid red;      
+    align-items: center;
+    flex: 1;
+    
+}
+
+#nav li{
+    margin-right: 5px;
+    list-style-type: none;
+    
+    
+}
+
+#portfolio-heading{
+    font-family: 'oswald';
+}
+
+
+#about-me{
+    border: 2px black solid;
+}
+
+#my-img{
+    width: 150px;
+    height: 225px;
+    
+
+    
+}
+
+#about-me {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects, #skills{
+    display: flex;
+    flex-direction: column;
+}
+
+#projects li{
+    list-style-type: square;
+}
+
+#skills .box{
+    display: flex;
+}
